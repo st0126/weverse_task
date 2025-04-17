@@ -65,9 +65,9 @@ def check(page:Page):
 
 
 def test_flow(browser):
-    for i in range(3):                          # 계정 대량 생성 고려 원하는 수 입력
+    for i in range(3):                          # 계정 대량 생성 고려 range(n) 원하는 수 입력
         context = browser.new_context()         # 각각의 독립적인 저장소
-        page = context.new_page()               # 독집적인 저상소에서 새 페이지 오픈
+        page = context.new_page()               # 독집적인 저장소에서 새 페이지 오픈
         go_site(page)
         move_page(page)
         email = user_email(page)
