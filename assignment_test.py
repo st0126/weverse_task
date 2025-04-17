@@ -3,7 +3,7 @@ from playwright.sync_api import Page, expect
 import random
 import string
 
-######### 프로필 페이지 진입하여 WID 추출은 인증 받은 계정으로 로그인이 필요하여 assignment2_test.에서 진행하였습니다.#########
+######### 프로필 페이지 진입하여 WID 추출은 인증 완료된 계정으로 로그인이 필요하여 assignment2_test.에서 진행하였습니다.#########
 ###시현 영상 첨부 하였습니다.###
 
 # 홈페이지 이동

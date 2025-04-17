@@ -1,9 +1,6 @@
 import pytest
 from playwright.sync_api import Page, expect
 
-###자동화 스크립트 실행하여 로그인 시도 시 "비정상적인 접근으로 감지" 메시지 출력되어 로그인이 불가합니다. WID 값은 개발자 도구 Fetch/XHR 통하여 확인은 진행하였습니다.###
-###시현 영상 및 wid 값 첨부하였습니다.###
-
 # 홈페이지 이동
 def go_site(page):
     page.goto("https://weverse.io/")
