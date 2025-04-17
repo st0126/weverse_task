@@ -5,5 +5,10 @@
 https://github.com/user-attachments/assets/080c510a-fac5-4076-8937-aa51cd5e137a
 
 
--계정 생성 영상-
+####################################
+계정 생성 영상
+- @benx.com 형식으로 생성해야 한다.
+- 계정 생성은 대량 생성을 고려해서 구현해야 한다.
+https://github.com/user-attachments/assets/d052e731-075b-4035-86ed-f5c4af6154c0
+
 
