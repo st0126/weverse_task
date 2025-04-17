@@ -1,6 +1,8 @@
 import pytest
 from playwright.sync_api import Page, expect
 
+# 로그인 후 프로필 진입하여 wid 값 추출이 필요하나, 제약사항이 발생하여 로그인 시도까지만 완료하였습니다. 
+
 # 홈페이지 이동
 def go_site(page):
     page.goto("https://weverse.io/")
@@ -41,4 +43,4 @@ def test_flow(page):
         pw = login_password(page)
         print(f"\nid: {email}"f"\npw: {pw}")
 
-# 실행 명령어 %pytest assignment2_test.py -s --headed --slowmo 500 실행
+    # 실행 명령어 %pytest assignment2_test.py -s --headed --slowmo 500 실행
